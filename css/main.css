@@ -137,24 +137,332 @@ body{
 }
 .landing .intro-text{
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 10%;
+  left: 30%;
   transform: translate(-50%, -50%);
   text-align: center;
-  width: 340px;
+  width: 315px;
   max-width: 100%;
 }
 .landing .intro-text h1 {
   margin: 0;
   font-weight: 800;
-  font-size: 50px;
+  font-size: 39px;
+  color: black;
+}
+.landing .intro-text h1 span {
   color: var(--mainColor);
 }
 .landing .intro-text p {
-  line-height: 1.8;
+  line-height: 1.5;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
 }
+.landing .intro-text p span {
+  font-weight: 800;
+}
+/* S @media Responsive Screen For Landing */
+/* @media landing screen From 1340px to 1399px*/
+@media (min-width: 1340px) and (Max-width: 1399px) {
+  .landing {
+    background-image: url(../Images/landing.jpg);
+    background-size: cover;
+    height: calc(128vh - 190px);
+    position: relative;
+    text-align: center;
+  }
+  .landing .intro-text {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 290px;
+    max-width: 100%;
+  }
+  .landing .intro-text h1 {
+    font-size: 37px;
+  }
+  .landing .intro-text p {
+    font-size: 19px;
+  }
+}
+/* @media landing screen From 1200px to 1339px*/
+@media (min-width: 1200px) and (Max-width: 1339px) {
+  .landing {
+    background-image: url(../Images/landing.jpg);
+    background-size: cover;
+    height: calc(118.4vh - 190px);
+    position: relative;
+    text-align: center;
+  }
+  .landing .intro-text {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 275px;
+    max-width: 100%;
+  }
+  .landing .intro-text h1 {
+    font-size: 35px;
+  }
+  .landing .intro-text p {
+    font-size: 18px;
+  }
+}
+/* @media landing screen From 1101px to 1199px*/
+@media (min-width: 1101px) and (Max-width: 1199px) {
+  .landing {
+    background-image: url(../Images/landing.jpg);
+    background-size: cover;
+    height: calc(110vh - 190px);
+    position: relative;
+    text-align: center;
+  }
+  .landing .intro-text {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 260px;
+    max-width: 100%;
+  }
+  .landing .intro-text h1 {
+    font-size: 33px;
+  }
+  .landing .intro-text p {
+    font-size: 17px;
+  }
+}
+/* @media landing screen From 1000px to 1100px*/
+@media (min-width: 1000px) and (Max-width: 1100px) {
+  .landing {
+    background-image: url(../Images/landing.jpg);
+    background-size: cover;
+    height: calc(103.2vh - 190px);
+    position: relative;
+    text-align: center;
+  }
+  .landing .intro-text {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 245px;
+    max-width: 100%;
+  }
+  .landing .intro-text h1 {
+    font-size: 31px;
+  }
+  .landing .intro-text p {
+    font-size: 16px;
+  }
+}
+/* @media landing screen From 899px to 999px*/
+@media (min-width: 899px) and (Max-width: 999px) {
+  .landing {
+    background-image: url(../Images/landing.jpg);
+    background-size: cover;
+    height: calc(95.7vh - 190px);
+    position: relative;
+    text-align: center;
+  }
+  .landing .intro-text {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 230px;
+    max-width: 100%;
+  }
+  .landing .intro-text h1 {
+    font-size: 29px;
+  }
+  .landing .intro-text p {
+    font-size: 15px;
+  }
+}
+/* @media landing screen From 798px to 898px*/
+@media (min-width: 798px) and (Max-width: 898px) {
+  .landing {
+    background-image: url(../Images/landing.jpg);
+    background-size: cover;
+    height: calc(88.3vh - 190px);
+    position: relative;
+    text-align: center;
+  }
+  .landing .intro-text {
+    position: absolute;
+    top: 11%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 215px;
+    max-width: 100%;
+  }
+  .landing .intro-text h1 {
+    font-size: 27px;
+  }
+  .landing .intro-text p {
+    font-size: 14px;
+  }
+}
+/* @media landing screen From 697px to 797px*/
+@media (min-width: 697px) and (Max-width: 797px) {
+  .landing {
+    background-image: url(../Images/landing.jpg);
+    background-size: cover;
+    height: calc(80.3vh - 190px);
+    position: relative;
+    text-align: center;
+  }
+  .landing .intro-text {
+    position: absolute;
+    top: 12%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 200px;
+    max-width: 100%;
+  }
+  .landing .intro-text h1 {
+    font-size: 25px;
+  }
+  .landing .intro-text p {
+    font-size: 13px;
+  }
+}
+/* @media landing screen From 596px to 696px*/
+@media (min-width: 596px) and (Max-width: 696px) {
+  .landing {
+    background-image: url(../Images/landing.jpg);
+    background-size: cover;
+    height: calc(72.3vh - 190px);
+    position: relative;
+    text-align: center;
+  }
+  .landing .intro-text {
+    position: absolute;
+    top: 13%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 190px;
+    max-width: 100%;
+  }
+  .landing .intro-text h1 {
+    font-size: 23px;
+  }
+  .landing .intro-text p {
+    font-size: 12px;
+  }
+}
+/* @media landing screen From 540px to 595px*/
+@media (min-width: 540px) and (Max-width: 595px) {
+  .landing {
+    background-image: url(../Images/landing.jpg);
+    background-size: cover;
+    height: calc(68.3vh - 190px);
+    position: relative;
+    text-align: center;
+  }
+  .landing .intro-text {
+    position: absolute;
+    top: 12.5%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 185px;
+    max-width: 100%;
+  }
+  .landing .intro-text h1 {
+    font-size: 21px;
+  }
+  .landing .intro-text p {
+    font-size: 11px;
+  }
+}
+/* @media landing screen From 450px to 539px*/
+@media (min-width: 450px) and (Max-width: 539px) {
+  .landing {
+    background-image: url(../Images/landing.jpg);
+    background-size: cover;
+    height: calc(62vh - 190px);
+    position: relative;
+    text-align: center;
+  }
+  .landing .intro-text {
+    position: absolute;
+    top: 14.5%;
+    left: 35.5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 180px;
+    max-width: 100%;
+  }
+  .landing .intro-text h1 {
+    font-size: 19px;
+  }
+  .landing .intro-text p {
+    font-size: 10px;
+  }
+}
+/* @media landing screen From 371px to 449px*/
+@media (min-width: 371px) and (Max-width: 449px) {
+  .landing {
+    background-image: url(../Images/landing.jpg);
+    background-size: cover;
+    height: calc(55.5vh - 190px);
+    position: relative;
+    text-align: center;
+  }
+  .landing .intro-text {
+    position: absolute;
+    top: 17%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 175px;
+    max-width: 100%;
+  }
+  .landing .intro-text h1 {
+    font-size: 17px;
+  }
+  .landing .intro-text p {
+    font-size: 9.5px;
+  }
+}
+/* @media landing screen From 330px to 370px*/
+@media (min-width: 330px) and (Max-width: 370px) {
+  .landing {
+    background-image: url(../Images/landing.jpg);
+    background-size: cover;
+    height: calc(53.5vh - 190px);
+    position: relative;
+    text-align: center;
+  }
+  .landing .intro-text {
+    position: absolute;
+    top: 17%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 175px;
+    max-width: 100%;
+  }
+  .landing .intro-text h1 {
+    font-size: 15px;
+  }
+  .landing .intro-text p {
+    font-size: 9px;
+  }
+}
+/* END @media Responsive Screen For Landing */
 /* End Landing section */
 /* Start Features Section */
 .features {
