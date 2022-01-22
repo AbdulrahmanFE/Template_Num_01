@@ -1,6 +1,6 @@
 ::selection {
   background-color: black;
-  color: var(--thirdColor);
+  color: white;
 }
 /* Start Variables */
   :root{
@@ -131,41 +131,19 @@ body{
 .landing{
   background-image: url(../Images/landing.jpg);
   background-size: cover;
-  height: calc(117vh - 190px);
+  height: calc(130vh - 190px);
   position: relative;
   text-align: center;
 }
 .landing .intro-text{
   position: absolute;
-  top: 10%;
-  left: 29%;
-  transform: translate(-45%, -45%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  width: 320px;
+  width: 340px;
   max-width: 100%;
 }
-@media (max-width: 1300px) {
-  .landing .intro-text{
-    position: absolute;
-    top: 10%;
-    left: 30%;
-    transform: translate(-45%, -45%);
-    text-align: center;
-    width: 320px;
-    max-width: 100%;
-  }
-}
-@media (max-width: 1000px) {
-  .landing .intro-text{
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -45%);
-    width: 320px;
-    max-width: 100%;
-  }
-}
-
 .landing .intro-text h1 {
   margin: 0;
   font-weight: 800;
@@ -314,17 +292,22 @@ body{
   gap: 30px;
   margin-top: 100px;
 }
+.portfolio .portfolio-content .project {
+  text-decoration: none;
+  color: black;
+}
 .portfolio .portfolio-content .card {
   background-color: white;
   border-radius: 4%;
+  transition: 0.3s linear;
 }
 .portfolio .portfolio-content .card:hover {
   padding-left: 15px;
   cursor: pointer;
-  background-color: var(--thirdColor);
+  transform: rotate(0.5deg);
 }
 @media (min-width: 630px) and (max-width: 991px) {
-  .portfolio .card:nth-of-type(3) {
+  .portfolio .portfolio-content .card:nth-of-type(3) {
     position: relative;
     left: 50%;
   }
@@ -345,6 +328,7 @@ body{
   opacity: 75%;
   line-height: 1.75;
   margin-bottom: 0;
+
 }
 .portfolio .s-show {
   display: flex;
@@ -352,17 +336,17 @@ body{
   align-items: center;
   position: relative;
   top: 60px;
-  transition: 0.1s;
 }
 .portfolio .s-show div{
-  background-color: #333;
-  color: var(--thirdColor);
+  background-color: var(--secondColor);
+  color: white;
   height: 40px;
   width: 125px;
   cursor: pointer;
   display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s ease;
 }
 .portfolio .s-show div::before {
   content: "show me more";
@@ -374,8 +358,8 @@ body{
     display: none;
   }
 }
-.portfolio .s-show:hover{
-  padding-top: 1px;
+.portfolio .s-show:hover div{
+  transform: rotate(2deg);
 }
 /* End Portfolio Section */
 /* Start About Section */
@@ -444,7 +428,7 @@ body{
   font-size: 30px;
   font-weight: 800;
   margin-bottom: 15px;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
 }
 .contact .info .link {
   display: block;
@@ -464,6 +448,20 @@ body{
   margin-left: 15px;
   font-size: 25px;
   color: var(--mainColor);
+  transition: 0.3s ease;
+}
+.contact .info .social i:hover {
+  transform: rotate(5deg);
+}
+@media (max-width: 450px) {
+  .contact .info .label,
+  .contact .info .link{
+    font-size: 20px;
+  }
+  .contact .info .social, 
+  .contact .info .social i {
+    font-size: 15px;
+  } 
 }
 /* End Contact Section */
 /* Start Footer Section */
