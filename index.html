@@ -3,96 +3,95 @@
   <head>
     <meta 
       charset="UTF-8"
-    >
-        <!-- Main CSS File -->
-    <link rel="stylesheet" href="./css/main.css">
-        <!-- Render All Elements Normally -->
-    <link rel="stylesheet" href="./css/normalize.css">
-        <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    >
-    <!-- Font Awesome Library -->
-    <link rel="stylesheet" href="./css/all.min.css">
+    />
+      <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+      <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/main.css" />
+      <!-- Page icon -->
+    <link rel="icon" type="image" href="Images/logo.svg" />
+      <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="./css/all.min.css" />
     <meta 
       http-equiv="X-UA-Compatible" 
       content="IE=edge"
-    >
+    />
     <meta 
       name="viewport" 
       content="width=device-width, initial-scale=1.0"
-    >
-    <title>NBH</title>
+    />
+    <meta 
+      name="description"
+      content="Practice Front-End"
+    />
+    <meta name="Leon" content="v1.0" />
+    <title>Leon</title>
   </head>
   <body>
-    <!-- Start Header -->
-    <div class="header">
+    <!-- Header -->
+    <header>
       <div class="container">
-        <img class="logo" src="./Images/NBH-Logo.png" alt="The Img Not Work">
-        <div class="links">
-          <span class="bar-links">
+        <img class="logo" src="Images/logo.svg" alt="Logo">
+        <nav class="links">
+          <input type="checkbox" id="burger" class="check" />
+          <label for="burger" class="burger">
             <span></span>
             <span></span>
             <span></span>
-          </span>
+          </label>
           <ul>
             <li><a href="#service">service</a></li>
             <li><a href="#portfolio">portfolio</a></li>
             <li><a href="#about">about</a></li>
             <li><a href="#contact">contact</a></li>
           </ul>
-        </div>
+        </nav>
       </div>
-    </div>
-    <!-- End Header -->
-    <!-- Start Landing Section -->
-      <div class="landing">
-        <div class="intro-text">
-          <h1>hello world !</h1>
-          <p>we are <span>NBH</span> - super creative & minimal agency web template</p>
-        </div>
+    </header>
+    <!-- Landing Section -->
+    <section class="landing">
+      <div class="intro-text">
+        <h1>hello there !</h1>
+        <p>we are <span>Leon</span> - super creative & minimal agency web template</p>
       </div>
-    <!-- End Landing Section -->
-    <!-- Start Features Section -->
-    <div class="features">
+    </section>
+    <!-- Features Section -->
+    <section class="features">
       <div class="container">
         <div class="feat">
           <i class="fas fa-magic fa-3x"></i>
-          <h3>tell us your idea</h3>
+          <h2>tell us your idea</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
         </div>
         <div class="feat">
           <i class="far fa-gem fa-3x"></i>
-          <h3>we will do all the work</h3>
+          <h2>we will do all the work</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
         </div>
         <div class="feat">
           <i class="fas fa-globe-asia fa-3x"></i>
-          <h3>your product is worldwide</h3>
+          <h2>your product is worldwide</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
         </div>
       </div>
-    </div>
-    <!-- End Features Section -->
-    <!-- Start Services Section -->
-    <div class="services" id="service">
+    </section>
+    <!-- Services Section -->
+    <section class="services" id="service">
       <div class="container">
         <h2 class="sp-heading">services</h2>
         <p>don't be busy, be productive</p>
       <div class="services-content">
           <div class="image">
-            <img src="./Images/services.jpg" alt="Services" />
+            <img src="Images/services.svg" alt="Services" />
           </div>
         <div class="col">
           <!-- Start Srv 1 / 2 -->
           <div class="srv">
-            <i class="fas fa-palette fa-2x"></i>
+            <i class="fas fa-pencil-ruler fa-2x"></i>
             <div class="text">
-              <h3>graphic design</h3>
-              <p> Graphic design is the process of visual communication and problem-solving using one or more of
-                typography, photography and illustration.
+              <h3>web development</h3>
+              <p> 
+                web development is a broad term for the work involved in developing a web site for the Internet or an intranet.
               </p>
             </div>
           </div>
@@ -108,7 +107,7 @@
           </div>
         </div>
           <!-- End Srv 1 / 2 -->
-      <div class="col-two">
+      <div class="col">
         <!-- Start Srv 3 / 4 -->
         <div class="srv">
           <i class="fas fa-vector-square fa-2x"></i>
@@ -120,11 +119,11 @@
           </div>
         </div>
         <div class="srv">
-          <i class="fas fa-pencil-ruler fa-2x"></i>
+          <i class="fas fa-palette fa-2x"></i>
           <div class="text">
-            <h3>web development</h3>
-            <p> 
-              web development is a broad term for the work involved in developing a web site for the Internet or an intranet.
+            <h3>graphic design</h3>
+            <p> Graphic design is the process of visual communication and problem-solving using one or more of
+              typography, photography and illustration.
             </p>
           </div>
         </div>
@@ -132,10 +131,9 @@
       <!-- End Srv 3 / 4 -->
       </div>
       </div>
-    </div>
-    <!-- End Services Section -->
-    <!-- Start Portfolio Section -->
-    <div class="portfolio" id="portfolio">
+    </section>
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
       <div class="container">
         <h2 class="sp-heading">portfolio</h2>
         <p>
@@ -144,7 +142,9 @@
         <div class="portfolio-content">
           <div class="card">
           <a href="#" class="project">
-            <img src="./Images/portfolio-1.png" alt="">
+            <div class="image">
+              <img src="Images/portfolio-01.jpg" alt="" aria-hidden="true" />
+            </div>
             <div class="info">
               <h3>project here</h3>
               <p>my creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
@@ -153,7 +153,9 @@
           </div>
           <div class="card">
           <a href="#" class="project">
-            <img src="./Images/portfolio-2.png" alt="">
+            <div class="image">
+              <img src="Images/portfolio-02.jpg" alt="" aria-hidden="true" />
+            </div>
             <div class="info">
               <h3>project here</h3>
               <p>my creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
@@ -162,7 +164,9 @@
           </div>
           <div class="card">
           <a href="#" class="project">
-            <img src="./Images/portfolio-3.png" alt="">
+            <div class="image">
+              <img src="Images/portfolio-03.jpg" alt="" aria-hidden="true" />
+            </div>
             <div class="info">
               <h3>project here</h3>
               <p>my creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
@@ -170,63 +174,59 @@
           </a>
           </div>
         </div>
-          <div class="s-show" title="It's Just A Test">
-            <a href="#"><div></div></a>
+        <button type="button" class="show-btn">Show More</button>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="sp-heading">about</h2>
+        <p>
+          less is more work
+        </p>
+        <div class="about-content">
+          <div class="image">
+            <img src="./Images/about.png" alt="">
+          </div>
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nemo neque voluptate tempora velit cum non,
+              fuga vitae architecto delectus sed maxime rerum impedit aliquam obcaecati, aut excepturi iusto laudantium!
+            </p>
+            <div class="line"></div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nemo neque voluptate tempora velit cum non,
+              fuga vitae architecto delectus sed maxime rerum impedit aliquam obcaecati, aut excepturi iusto laudantium!
+            </p>
           </div>
         </div>
       </div>
-          <!-- End Portfolio Section -->
-          <!-- Start About Section -->
-          <div class="about" id="about">
-            <div class="container">
-              <h2 class="sp-heading">about</h2>
-              <p>
-                less is more work
-              </p>
-              <div class="about-content">
-                <div class="image">
-                  <img src="./Images/about.png" alt="">
-                </div>
-                <div class="text">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nemo neque voluptate tempora velit cum non,
-                    fuga vitae architecto delectus sed maxime rerum impedit aliquam obcaecati, aut excepturi iusto laudantium!
-                  </p>
-                  <hr/>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nemo neque voluptate tempora velit cum non,
-                    fuga vitae architecto delectus sed maxime rerum impedit aliquam obcaecati, aut excepturi iusto laudantium!
-                  </p>
-                </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="sp-heading">contact</h2>
+        <p>we are born to create</p>
+        <div class="info">
+          <p class="label">
+            Feel free to drop us a line at:
+          </p>
+          <a href="mailto:leonagency@mail.com?subject=Contact" class="link">leonagency@mail.com</a>
+            <div class="social-content">
+            <p>find us on social networks</p>
+              <div class="social">
+                <a href="#" title="Instagram" style="--color: #E4405F;"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" title="Facebook" style="--color: #1877F2;"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="#" title="Twitter" style="--color: #1DA1F2;"><i class="fa-brands fa-twitter-square"></i></a>
               </div>
             </div>
-          </div>
-          <!-- End About Section -->
-          <!-- Start Contact Section -->
-          <div class="contact" id="contact">
-            <div class="container">
-              <h2 class="sp-heading">contact</h2>
-              <p>we are born to create</p>
-            
-            <div class="info">
-              <p class="label">
-                Feel free to drop us a line at:
-              </p>
-              <a href="mailto:NBH@mail.com?subject= Contact" class="link" title="It's Just A Test">NBH@mail.com</a>
-            <div class="social">
-              find us on social networks
-            <a href="#" title="It's Just A Test" class="inst"><i class="fab fa-instagram"></i></a>
-            <a href="#" title="It's Just A Test" class="facebook"><i class="fab fa-facebook-square"></i></a>
-            <a href="#" title="It's Just A Test" class="twitter"><i class="fab fa-twitter-square"></i></a>
-            </div>
-            </div>
-          </div>
-          </div> 
-          <!-- End Contact Section -->
-          <!-- Start Footer Section -->
-          <div class="footer">
-            &copy; 2022 <span title="NBH Right">NBH</span> All Right Reserved
-          </div>
-          <!-- End Footer Section -->
+        </div>
+      </div>
+    </section> 
+    <!-- Footer Section -->
+    <footer>
+      <p class="rights">&copy; 2022 <span title="Leon Right">Leon</span> All Right Reserved</p>
+      <p class="coded">coded by <a href="https://github.com/AbdulrahmanFE" target="_blank" rel="noopener noreferrer" class="author">ABDULRAHMAN</a></p>
+    </footer>
   </body>
 </html>
